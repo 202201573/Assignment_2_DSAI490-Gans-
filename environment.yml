@@ -1,0 +1,16 @@
+name: dates_generator
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1       
+  - numpy>=1.24
+  - pip
+  - pip:
+      - tqdm
